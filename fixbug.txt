@@ -1,0 +1,13 @@
+sbatch: error: Batch script contains DOS line breaks (\r\n) 
+sbatch: error: instead of expected UNIX line breaks (\n)
+https://wikis.ovgu.de/hpc/doku.php?id=guide:dos_unix_linebreaks
+on Linux
+To deal with the problem, a simple UNIX command line allows to convert the linebreak format to the one readable by UNIX:
+
+$ dos2unix script_name.sh
+Some systems might not have the script dos2unix installed. In that case run the following command.
+
+$ sed -i 's/^M//' script_name.sh
+The character ^M is a single special character. To type it press and holt CTRL. Then Press and release v, then still holding CTRL press m.
+
+https://emacs.stackexchange.com/questions/5779/how-to-convert-dos-windows-newline-characters-to-unix-format-within-gnu-emacs
