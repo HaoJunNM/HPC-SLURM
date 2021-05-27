@@ -14,3 +14,4 @@ module load conda #choose your module name, module avail can check the available
 source activate env #my python virtual environment is in /scratch/userid/env and the name is env if you do not need virtual env, delete this line
 
 python mycode.py
+#submit call.sh to submit the job to slurm
