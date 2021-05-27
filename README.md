@@ -1,5 +1,5 @@
 # HPC-SLURM
-SLURM is a common language for the management of high performance computing (HPC)
+SLURM is a common language for the management of high performance computing (HPC).
 call.sh contains all the lines needed for SLURM to have you allocated for the next available HPC node.
 Having call.sh, the next step is to submit the job to SLURM, which is very easy!
 Submit call.sh
