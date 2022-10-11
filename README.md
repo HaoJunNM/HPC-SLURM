@@ -7,4 +7,7 @@ Submit call.sh<br/>
 Yes, that is the only code since all the other info is in call.sh.<br/>
 The learning process may not be easy compared with other languages, may need some practices.<br/>
 But once you submit your first job successfully, everyday is a sunny day!<br/>
-fixbug.txt contains the solutions to bugs that I faces, hopefully will be useful for you.
+fixbug.txt contains the solutions to bugs that I faces, hopefully will be useful for you.  
+In case Jupyterhub is needed, and we need to create a symbolic link to root directory,  
+use ln -s /the/root/directory/to/ur/data projects ('projects' is the name of the link),  
+'project' is not necessary, if the name is not provided, the default name will be 'data'.
